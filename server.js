@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const LINE_TOKEN = "ใส่ Channel Access Token ตรงนี้";
+const LINE_TOKEN = "uRwZjt116/leokFsvzynUF1ugvBjIy/ahLnl1reeFoO3auYj6R2T3X+YpoWhSf8GANL+PGfYMu9gxBTOdDttGEprp2zpVphNWTcu4mGYcGg5cDxzxVZfVIFZ5wIjncghLnx0/1anp+vToP0THjehVgdB04t89/1O/w1cDnyilFU=";
 
 app.post("/webhook", async (req, res) => {
   const event = req.body.events[0];
